@@ -13,6 +13,7 @@ class MyTestCase(unittest.TestCase):
 	def test_add(self,value):
 		# 断言value值是否等于2
 		self.assertEqual(value,2)
+		return value
 
 if __name__=='__main__':
 	unittest.main()
